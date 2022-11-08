@@ -17,6 +17,24 @@ code {
     monospace;
 }
 
-*::-webkit-scrollbar{
-  display: none;
+/* *::-webkit-scrollbar{
+  display: ;
+} */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f137;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(192, 185, 185, 0.532);
 }
